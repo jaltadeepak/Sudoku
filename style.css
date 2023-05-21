@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 5px solid black;
+    width: 27rem;
+    height: 27rem;
+    border-radius: 1rem;
+    border-radius: 10px; /* Add border-radius to round the corners */
+    overflow: hidden;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.cell{
+    border: 1px solid gray;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
